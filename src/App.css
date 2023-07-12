@@ -1,0 +1,25 @@
+#root{
+  height: 100vh;
+  background: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.board{
+  width: 560px;
+  height: 560px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.board img{
+  width: 70px;
+}
